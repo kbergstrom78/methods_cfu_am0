@@ -71,10 +71,34 @@ puts ice_cream.swapcase!
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+year_in_school = 2
+puts year_in_school.pred
 
+# the .pred method is called on the year_in_school variable, which stores the integer object 2
+# the .pred method returns withthe previous consecutive integer
+
+meals_per_day = 3
+meals_per_day.to_s
+
+# the to_s method is called on the meals_per_day variable which stores the integer object 3
+# the to_s method returns with 3 converted to a string, in this case "3" 
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+snacks = ["fruit", "chips", "cheese", "pretzels"]
+snacks.pop
+# the .pop method is called on the snacks array 
+# the .pop method does 2 things: it removes the last element of the array, and it also returns the removed elements
+# in this example, snacks.pop returns the string object "pretzels" which has also been removed from the array
+
+
+
+planets = ["earth", "mars", "venus", "saturn"]
+planets.shift
+# the .shift method is called on the planets array
+# the .shift method does 2 things: removes the first element of the array and then returns it, shifting the other elements by one
+# in this example, planets.shift returns the string object "earth" which has also been removed from the array

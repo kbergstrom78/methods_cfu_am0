@@ -51,6 +51,18 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+eye_color = "hazel"
+puts eye_color.reverse!
+# the reverse! method is called on the eye_color variable, which stores the string object "hazel"
+# the reverse! method returns with reversing the order of the arugment's letters
+# in this case, the return value is "lezah"
+
+ice_cream = "Rocky Road"
+puts ice_cream.swapcase!
+# the swapcase! method is called on the ice_cream variable, which stores the string object "Rocky Road" 
+# the swapcase! method returns with swapping the upper and lowercase letters in the argument.
+# in this case, the return value is "rOCKY rOAD"
+
 
 
 # SECTION 3: Calling methods on variables assigned to integers.

@@ -10,19 +10,31 @@
 
 
 "Hello World".include?("Hello")
+# The .include? method is called on the string object "Hello World"
+# This method is asking whether the variable, "Hello World" includes the argument, "Hello"
+# It does, thus the return value is "true"
 
 
 "Hello World".end_with?("Hello")
+# The .end_with? method is called on the string object "Hello World"
+# This method is asking whether the variable, "Hello World" ends with the argument, "Hello"
+# It does not, thus the return value is "false"
 
 
 "Hello World".end_with?("rld")
-
+# The .end_with? method is called on the string object "Hello World"
+# This method is asking whether the variable, "Hello World" ends with the argument, "rld"
+# "world" does end with that argument and the return value is "true"
 
 12.even?
-
+# the .even? method is called on the integer 12
+# this method is used to validate if an integer is even
+# 12 is an even number and so the return value is "true"
 
 18.next
-
+# the .next method is called on the integer 18
+# this method returns the next sequential whole number
+# the return value is 19
 
 
 # SECTION 2: Calling methods on variables assigned to strings.
